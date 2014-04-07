@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#slider{
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+#slider ul{
+	position: absolute;
+	list-style: none;
+	overflow: hidden;
+}
+#slider ul li,img{
+
+	width: 300px;
+	height: 500px;
+}
+#slider ul li{
+	float: left;
+}
+
+#slider ol{
+	z-index: 99;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	list-style: none;
+	height: 10px;
+	overflow: hidden;
+}
+#slider ol li{
+	float: left;
+	height: 10px;
+	width: 10px;
+	margin-right: 4px;
+	background: #aaa;
+	cursor: pointer;
+	border-radius: 50%;
+}
+#slider ol .active{
+	background: #4CC74C;
+}
